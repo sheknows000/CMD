@@ -2,6 +2,8 @@ titulo_1 = "*PROGRAMA PARA"
 titulo_2 = " NOMBRE GAMER*"
 titulo_3 = "**carita fachera**"
 
+# if, elif, else
+
 print(
 
 )
@@ -56,6 +58,9 @@ if gender == "H":
         print("TE GUSTO TU NOMBRE LOQUITA???")
 elif gender == "M":
     number_ = (input("elegi un numero (1-10): "))
+    print(
+
+    )
     if number_ == "1":
         print(name + " La Amoladora")
     elif number_ == "2":
@@ -83,18 +88,14 @@ elif gender == "M":
         print(name + " La Baby")
         print("TE GUSTO TU NOMBRE LOQUITA???")
     elif number_ == "10":
-        print(name + " La Asesino de Noobs")
+        print(name + " La Asesina de Noobs")
         print("TE GUSTO TU NOMBRE LOQUITA???")
 elif gender != ["M", "H"]:
-    print("No, tiene que ingresar un genero valido")
-    
+    print("No ha ingresado un genero valido")
+
     print(
 
     )
-
-
-
-
 
 print(
 
