@@ -1,0 +1,61 @@
+from typing import List
+
+on_lamp = "      .\n .    |    ,\n  \   '   /\n   ` ,-. '\n--- (   ) ---\n     \ /\n    _|=|_\n   |_____|"
+off_lamp = "     ,-.\n    (   )\n     \ /\n    _|=|_\n   |_____|"
+
+
+titulo_0 = "  WELCOME"
+titulo_1 = "  Esto es un 'programa' de habilidad"
+
+print(
+
+)
+
+print(titulo_0)
+print(titulo_1)
+
+print(
+
+)
+
+start = input("Queres empezar? (si-no)")
+
+if start == ("si"):
+
+
+    print(
+
+    )
+
+    state = input("Como queres que este la lampara? (on-off)")
+
+    if state == ("on"):
+        print(
+
+        )
+        print(on_lamp)
+    
+        print(
+
+        )
+
+        print("podes ver una habitacion con objetos")
+        print("(balde con agua - hoja de papel - calculadora)")
+
+        object = input("Que objeto queres agarrar?")
+
+        if object == ("balde de agua"):
+            print("responde a la siguiente pregunta")
+            print("si tenemos un balde con 2lts de agua\ny sumergimos una pelota")
+            anwser_1 = input("")
+    elif state == ("off"):
+        print(
+
+        )
+        print(off_lamp)
+    else:
+        print("fuck u nigga")
+
+elif start == ("no"):
+    print
+
