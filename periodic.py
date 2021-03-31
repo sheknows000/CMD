@@ -26,7 +26,7 @@ fact_5 = "Electrones = "
 
 
 print(
-
+    
 )
 if num == "1":
     print(fact_0 + "H")
