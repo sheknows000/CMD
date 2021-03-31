@@ -24,7 +24,7 @@ print(
 if gender == "H":
     number = (input("elegi un numero (1-10): "))
     print(
-
+        
     )
     if number == "1":
         print("Senpai " + name)
